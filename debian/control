@@ -22,7 +22,7 @@ Description: KDE PIM incidence editor - library
  This package provides the shared libraries.
 
 Package: libkf5incidenceeditor-dev
-Section: libsdevel
+Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5incidenceeditor5 (= ${binary:Version}),
