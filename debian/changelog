@@ -1,15 +1,18 @@
-libkf5incidenceeditor (16.04.0-1~4.gbpb53714) UNRELEASED; urgency=medium
+libkf5incidenceeditor (16.04.0-1~5.gbp94a21c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b537142663d05b6fd9120ffb9011dac564ecdb0e **
+  ** SNAPSHOT build @94a21c6b6260ceb378ce10493aaaf04cf6cdf12d **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
 
   * Initial release.
   * Typo in the dependencies
+  * Drop the m-a field for the bin package
+  * Add missing Breaks/Replaces
+  * Add -dev dependencies needed by the cmake file
 
   [ Automatic packaging ]
   * Update symbols files
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 03 May 2016 19:45:19 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 03 May 2016 20:54:21 +0200
