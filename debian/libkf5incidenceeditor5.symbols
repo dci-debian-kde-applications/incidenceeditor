@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 16.04.0 armhf
+# SymbolsHelper-Confirmed: 16.04.0 amd64 armhf
 libKF5IncidenceEditor.so.5 libkf5incidenceeditor5 #MINVER#, libkf5incidenceeditor-bin
- _ZN10QByteArray7reserveEi@Base 16.04.0
+ (arch=armhf)_ZN10QByteArray7reserveEi@Base 16.04.0
  (optional=gccinternal|arch=!armhf)_ZN11KIconEngineD0Ev@Base 16.04
  (optional=gccinternal|arch=!armhf)_ZN11KIconEngineD1Ev@Base 16.04
  (optional=gccinternal|arch=!armhf)_ZN11KIconEngineD2Ev@Base 16.04
