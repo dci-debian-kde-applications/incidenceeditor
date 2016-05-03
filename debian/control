@@ -39,6 +39,8 @@ Description: KDE PIM incidence editor - library
 Package: libkf5incidenceeditor-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: korganizer (<= 4:16.04)
+Replaces: korganizer (<= 4:16.04)
 Description: KDE PIM incidence editor
  Incidence editor for KDE PIM.
  .
