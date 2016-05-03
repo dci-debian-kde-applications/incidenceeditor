@@ -1,0 +1,17 @@
+--- a/src/groupwareuidelegate.h
++++ b/src/groupwareuidelegate.h
+@@ -16,6 +16,9 @@
+   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ */
+ 
++#ifndef GROUPWAREUIDELEGATE_H
++#define GROUPWAREUIDELEGATE_H
++
+ #include "incidenceeditor_export.h"
+ 
+ #include <Akonadi/Calendar/ITIPHandler>
+@@ -34,3 +37,4 @@
+ };
+ 
+ }
++#endif // GROUPWAREUIDELEGATE_H
