@@ -49,7 +49,13 @@ Package: libkf5incidenceeditor-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5incidenceeditor5 (= ${binary:Version}),
+Depends: libkf5akonadi-dev (>= 4:5.2.0~),
+         libkf5akonadicalendar-dev,
+         libkf5calendarcore-dev (>= 5.2.0~),
+         libkf5incidenceeditor5 (= ${binary:Version}),
+         libkf5kidentitymanagement-dev,
+         libkf5mailtransport-dev (>= 5.2.0~),
+         libkf5mime-dev (>= 5.2.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM incidence editor - devel files
