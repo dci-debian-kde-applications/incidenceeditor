@@ -1,19 +1,14 @@
-libkf5incidenceeditor (16.04.1-1~1.gbp199293) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @1992933b01a56fb7ba36be956b7e33ad299c6dcc **
+libkf5incidenceeditor (16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
-
   * Initial release.
-  * Typo in the dependencies
   * Drop the m-a field for the bin package
   * Add missing Breaks/Replaces
   * Add -dev dependencies needed by the cmake file
+  * Add new upstream patch: upstream_add_copying_files.patch
 
   [ Automatic packaging ]
   * Update symbols files
-  * Update symbols files.
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 01:54:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jun 2016 23:22:03 +0200
