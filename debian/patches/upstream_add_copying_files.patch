@@ -1,8 +1,18 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 15 Jun 2016 07:54:08 +0200
+Subject: upstream_add_copying_files
+
 commit abf2b67801049247d870dcdc70c28cff12b10ae2
 Author: Montel Laurent <montel@kde.org>
 Date:   Tue May 24 22:15:09 2016 +0200
 
     Add COPYING files
+---
+ COPYING     | 346 +++++++++++++++++++++++++++++++++++++++++
+ COPYING.LIB | 510 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 856 insertions(+)
+ create mode 100644 COPYING
+ create mode 100644 COPYING.LIB
 
 diff --git a/COPYING b/COPYING
 new file mode 100644
