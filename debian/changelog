@@ -1,11 +1,10 @@
-libkf5incidenceeditor (16.04.2-1~1.gbpfd1f3b) UNRELEASED; urgency=medium
+libkf5incidenceeditor (16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @fd1f3b3981ac09ac1518f89d6dad1e3079849270 **
-
+  [ Automatic packaging ]
   * Refresh patches
   * Update symbols files with the buildds results
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 13:54:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 02 Jul 2016 11:51:41 +0200
 
 libkf5incidenceeditor (16.04.1-1) experimental; urgency=medium
 
