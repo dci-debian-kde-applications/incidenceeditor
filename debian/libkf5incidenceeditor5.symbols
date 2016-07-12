@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 16.04.1 armel
+# SymbolsHelper-Confirmed: 16.04.2 amd64 arm64 armel hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390x
 libKF5IncidenceEditor.so.5 libkf5incidenceeditor5 #MINVER#, libkf5incidenceeditor-bin
- (arch=armhf)_ZN10QByteArray7reserveEi@Base 16.04.0
+ _ZN10QByteArray7reserveEi@Base 16.04.2
  (optional=gccinternal|arch=!armel !armhf)_ZN11KIconEngineD0Ev@Base 16.04
  (optional=gccinternal|arch=!armel !armhf)_ZN11KIconEngineD1Ev@Base 16.04
  (optional=gccinternal|arch=!armel !armhf)_ZN11KIconEngineD2Ev@Base 16.04
