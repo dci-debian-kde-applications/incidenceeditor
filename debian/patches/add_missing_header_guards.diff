@@ -1,3 +1,13 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 11 May 2016 01:54:14 +0200
+Subject: add_missing_header_guards
+
+---
+ src/groupwareuidelegate.h | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/groupwareuidelegate.h b/src/groupwareuidelegate.h
+index 5f44247..293a945 100644
 --- a/src/groupwareuidelegate.h
 +++ b/src/groupwareuidelegate.h
 @@ -16,6 +16,9 @@
@@ -10,7 +20,7 @@
  #include "incidenceeditor_export.h"
  
  #include <Akonadi/Calendar/ITIPHandler>
-@@ -34,3 +37,4 @@
+@@ -34,3 +37,4 @@ public:
  };
  
  }

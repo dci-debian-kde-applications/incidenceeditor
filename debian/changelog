@@ -1,21 +1,28 @@
-libkf5incidenceeditor (16.04.1-0neon) xenial; urgency=medium
+libkf5incidenceeditor (16.04.2-2) unstable; urgency=low
 
-  * New release
+  * Release to unstable.
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:11:51 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Jul 2016 14:13:00 +0200
 
-libkf5incidenceeditor (16.04.0-1~4.gbpb53714) UNRELEASED; urgency=medium
+libkf5incidenceeditor (16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @b537142663d05b6fd9120ffb9011dac564ecdb0e **
+  [ Automatic packaging ]
+  * Refresh patches
+  * Update symbols files with the buildds results
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 02 Jul 2016 11:51:41 +0200
+
+libkf5incidenceeditor (16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
-
   * Initial release.
-  * Typo in the dependencies
+  * Drop the m-a field for the bin package
+  * Add missing Breaks/Replaces
+  * Add -dev dependencies needed by the cmake file
+  * Add new upstream patch: upstream_add_copying_files.patch
 
   [ Automatic packaging ]
   * Update symbols files
-  * Update symbols files.
+  * Refresh patches
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 03 May 2016 19:45:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jun 2016 23:22:03 +0200
