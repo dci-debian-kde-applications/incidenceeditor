@@ -44,7 +44,7 @@ Replaces: korganizer (<= 4:16.04)
 Description: KDE PIM incidence editor
  Incidence editor for KDE PIM.
  .
- This packages provides the runtime programs shipped with the library.
+ This package provides the runtime programs shipped with the library.
 
 Package: libkf5incidenceeditor-dev
 Section: libdevel
