@@ -15,11 +15,11 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5eventviews-dev (>= 5.2.0~),
                libkf5i18n-dev (>= 5.19.0~),
                libkf5kdepimdbusinterfaces-dev (>= 5.2.0~),
-               libkf5kdgantt2-dev (>= 5.2.0~),
                libkf5ldap-dev (>= 5.2.0~),
                libkf5libkdepim-dev (>= 5.2.0~),
                libkf5mailtransport-dev (>= 5.2.0~),
                libkf5mime-dev (>= 5.2.0~),
+               libkgantt-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.8
