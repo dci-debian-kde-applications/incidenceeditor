@@ -1,12 +1,13 @@
-libkf5incidenceeditor (16.08.0-1~1.gbp51e15e) UNRELEASED; urgency=medium
+libkf5incidenceeditor (16.08.1-1~1.gbpbdd8fe) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @51e15e513a7cc4ecce7c028344a94f427b04d5a7 **
+  ** SNAPSHOT build @bdd8fee3da20e638168e923d2da2dc15d5757fca **
 
   * Update symbols files from buildds logs (16.04.2-2).
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:54:28 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:54:38 +0200
 
 libkf5incidenceeditor (16.04.2-2) unstable; urgency=low
 
