@@ -1,3 +1,9 @@
+libkf5incidenceeditor (17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 20 Apr 2017 21:56:26 +0000
+
 libkf5incidenceeditor (16.12.3-0neon) xenial; urgency=medium
 
   * New release
