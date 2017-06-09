@@ -6,8 +6,8 @@ Subject: add_missing_header_guards
  src/groupwareuidelegate.h | 4 ++++
  1 file changed, 4 insertions(+)
 
-diff --git a/src/groupwareuidelegate.h b/src/groupwareuidelegate.h
-index 5f44247..293a945 100644
+Index: b/src/groupwareuidelegate.h
+===================================================================
 --- a/src/groupwareuidelegate.h
 +++ b/src/groupwareuidelegate.h
 @@ -16,6 +16,9 @@
@@ -20,8 +20,8 @@ index 5f44247..293a945 100644
  #include "incidenceeditor_export.h"
  
  #include <Akonadi/Calendar/ITIPHandler>
-@@ -34,3 +37,4 @@ public:
+@@ -31,3 +34,4 @@
+     void createCalendar() override;
  };
- 
  }
 +#endif // GROUPWAREUIDELEGATE_H
