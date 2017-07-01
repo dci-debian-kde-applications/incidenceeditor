@@ -57,6 +57,7 @@ Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5akonadicalendar-dev,
          libkf5calendarcore-dev (>= 5.2.0~),
+         libkf5eventviews-dev,
          libkf5identitymanagement-dev,
          libkf5incidenceeditor5 (= ${binary:Version}),
          libkf5kdgantt2-dev (>= 5.2.0~),
