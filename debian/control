@@ -20,6 +20,9 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5libkdepim-dev (>= 5.3.1~),
                libkf5mailtransport-dev (>= 5.3.1~),
                libkf5mime-dev (>= 5.3.1~),
+               libkchart-dev,
+               libkf5contacteditor-dev (>= 17.04.0~),
+               libkgantt-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
@@ -31,6 +34,8 @@ Package: libkf5incidenceeditor5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: KDE PIM incidence editor - library
  This library provides an incidence editor for KDE PIM.
  .
@@ -44,7 +49,7 @@ Replaces: korganizer (<= 4:16.04)
 Description: KDE PIM incidence editor
  Incidence editor for KDE PIM.
  .
- This packages provides the runtime programs shipped with the library.
+ This package provides the runtime programs shipped with the library.
 
 Package: libkf5incidenceeditor-dev
 Section: libdevel
@@ -53,9 +58,10 @@ Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5akonadicalendar-dev,
          libkf5calendarcore-dev (>= 5.3.1~),
+         libkf5eventviews-dev,
          libkf5identitymanagement-dev,
          libkf5incidenceeditor5 (= ${binary:Version}),
-         libkf5kdgantt2-dev (>= 5.3.1~),
+         libkgantt-dev,
          libkf5mailtransport-dev (>= 5.3.1~),
          libkf5mime-dev (>= 5.3.1~),
          ${misc:Depends},
