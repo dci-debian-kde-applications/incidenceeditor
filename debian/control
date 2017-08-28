@@ -33,7 +33,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/incidenceeditor.git
 Package: libkf5incidenceeditor-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: korganizer (<= 4:16.04)
+Breaks: kdepim-addons (<< 17.08), kmail (<< 4:17.08), korganizer (<< 4:17.08)
 Replaces: korganizer (<= 4:16.04)
 Description: KDE PIM incidence editor
  Incidence editor for KDE PIM.
@@ -66,6 +66,9 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
         kde-l10n-eo (<< 4:17.03.90-0~),
+        kdepim-addons (<< 17.08),
+        kmail (<< 4:17.08),
+        korganizer (<< 4:17.08),
         ${kde-l10n:all},
 Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
           kde-l10n-eo (<< 4:17.03.90-0~),
